@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<NoWarn>1701;1702;1591</NoWarn>
+		<DocumentationFile>EleganceAdmin.Core.xml</DocumentationFile>
+	</PropertyGroup>
+
+
+
+	<ItemGroup>
+		<None Remove="EleganceAdmin.Core.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Furion" Version="4.8.8.6" />
+		<PackageReference Include="Furion.Extras.Authentication.JwtBearer" Version="4.8.8.6" />
+		<PackageReference Include="Furion.Extras.ObjectMapper.Mapster" Version="4.8.8.6" />
+	</ItemGroup>
+
+</Project>

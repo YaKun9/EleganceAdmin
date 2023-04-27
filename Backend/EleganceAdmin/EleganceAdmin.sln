@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EleganceAdmin.Application", "EleganceAdmin\EleganceAdmin.Application\EleganceAdmin.Application.csproj", "{E663C4B7-83A7-42CF-ACE4-81474B90EE9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EleganceAdmin.Core", "EleganceAdmin\EleganceAdmin.Core\EleganceAdmin.Core.csproj", "{D72E67D8-7672-48A4-AA95-B9DBA9FF0107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EleganceAdmin.Database.Migrations", "EleganceAdmin\EleganceAdmin.Database.Migrations\EleganceAdmin.Database.Migrations.csproj", "{E5B8E381-CBBD-4302-A8B1-B56CD4C996CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EleganceAdmin.EntityFramework.Core", "EleganceAdmin\EleganceAdmin.EntityFramework.Core\EleganceAdmin.EntityFramework.Core.csproj", "{07BC3630-CCCC-4263-B069-2B350264E7DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EleganceAdmin.Web.Core", "EleganceAdmin\EleganceAdmin.Web.Core\EleganceAdmin.Web.Core.csproj", "{73054BA8-EB92-4343-A34D-6410DE91C3E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EleganceAdmin.Web.Entry", "EleganceAdmin\EleganceAdmin.Web.Entry\EleganceAdmin.Web.Entry.csproj", "{8ED92868-644F-484D-9FD8-796DCAF20F45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E663C4B7-83A7-42CF-ACE4-81474B90EE9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E663C4B7-83A7-42CF-ACE4-81474B90EE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E663C4B7-83A7-42CF-ACE4-81474B90EE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E663C4B7-83A7-42CF-ACE4-81474B90EE9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72E67D8-7672-48A4-AA95-B9DBA9FF0107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72E67D8-7672-48A4-AA95-B9DBA9FF0107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72E67D8-7672-48A4-AA95-B9DBA9FF0107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72E67D8-7672-48A4-AA95-B9DBA9FF0107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B8E381-CBBD-4302-A8B1-B56CD4C996CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B8E381-CBBD-4302-A8B1-B56CD4C996CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B8E381-CBBD-4302-A8B1-B56CD4C996CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B8E381-CBBD-4302-A8B1-B56CD4C996CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BC3630-CCCC-4263-B069-2B350264E7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BC3630-CCCC-4263-B069-2B350264E7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BC3630-CCCC-4263-B069-2B350264E7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BC3630-CCCC-4263-B069-2B350264E7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73054BA8-EB92-4343-A34D-6410DE91C3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73054BA8-EB92-4343-A34D-6410DE91C3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73054BA8-EB92-4343-A34D-6410DE91C3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73054BA8-EB92-4343-A34D-6410DE91C3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED92868-644F-484D-9FD8-796DCAF20F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED92868-644F-484D-9FD8-796DCAF20F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED92868-644F-484D-9FD8-796DCAF20F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED92868-644F-484D-9FD8-796DCAF20F45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E30765EF-DB7E-4B92-B394-6B490F92F3BD}
+	EndGlobalSection
+EndGlobal

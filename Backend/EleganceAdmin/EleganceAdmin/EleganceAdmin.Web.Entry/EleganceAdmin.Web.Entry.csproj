@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<SatelliteResourceLanguages>en-US</SatelliteResourceLanguages>
+		<PublishReadyToRunComposite>true</PublishReadyToRunComposite>
+	</PropertyGroup>
+
+
+
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+
+
+	<ItemGroup>
+		<ProjectReference Include="..\EleganceAdmin.Web.Core\EleganceAdmin.Web.Core.csproj" />
+	</ItemGroup>
+	<ProjectExtensions>
+		<VisualStudio>
+			<UserProperties properties_4launchsettings_1json__JsonSchema="" />
+		</VisualStudio>
+	</ProjectExtensions>
+
+</Project>
