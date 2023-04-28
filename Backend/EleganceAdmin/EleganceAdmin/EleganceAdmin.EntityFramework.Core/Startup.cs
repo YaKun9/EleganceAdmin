@@ -1,4 +1,5 @@
-﻿using Furion;
+﻿using EleganceAdmin.EntityFramework.Core.DbContexts;
+using Furion;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace EleganceAdmin.EntityFramework.Core

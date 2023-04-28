@@ -4,5 +4,46 @@
         <name>EleganceAdmin.Core</name>
     </assembly>
     <members>
+        <member name="T:EleganceAdmin.Core.Configuration.CacheOptions">
+            <summary>
+            缓存配置
+            </summary>
+        </member>
+        <member name="P:EleganceAdmin.Core.Configuration.CacheOptions.CacheType">
+            <summary>
+            缓存类型 <see cref="T:EleganceAdmin.Core.Const.CacheTypeConst"/>
+            </summary>
+            <remarks>
+            <list type="bullet">
+            <item>Memory 内存缓存</item>
+            <item>Redis Redis分布式缓存</item>
+            </list>
+            </remarks>
+        </member>
+        <member name="P:EleganceAdmin.Core.Configuration.CacheOptions.ConnectionString">
+            <summary>
+            连接字符串,当缓存类型为Redis时有效
+            </summary>
+        </member>
+        <member name="P:EleganceAdmin.Core.Configuration.CacheOptions.Prefix">
+            <summary>
+            缓存前缀
+            </summary>
+        </member>
+        <member name="T:EleganceAdmin.Core.Const.CacheTypeConst">
+            <summary>
+            缓存类型
+            </summary>
+        </member>
+        <member name="F:EleganceAdmin.Core.Const.CacheTypeConst.MEMORY">
+            <summary>
+            内存缓存
+            </summary>
+        </member>
+        <member name="F:EleganceAdmin.Core.Const.CacheTypeConst.REDIS">
+            <summary>
+            Redis缓存
+            </summary>
+        </member>
     </members>
 </doc>

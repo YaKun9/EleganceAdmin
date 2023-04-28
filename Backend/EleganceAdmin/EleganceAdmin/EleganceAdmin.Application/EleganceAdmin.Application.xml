@@ -4,12 +4,12 @@
         <name>EleganceAdmin.Application</name>
     </assembly>
     <members>
-        <member name="T:EleganceAdmin.Application.SystemAppService">
+        <member name="T:EleganceAdmin.Application.System.SystemAppService">
             <summary>
             系统服务接口
             </summary>
         </member>
-        <member name="M:EleganceAdmin.Application.SystemAppService.GetDescription">
+        <member name="M:EleganceAdmin.Application.System.SystemAppService.GetDescription">
             <summary>
             获取系统描述
             </summary>

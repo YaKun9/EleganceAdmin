@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
 
-namespace EleganceAdmin.Web.Core
+namespace EleganceAdmin.Web.Core.Handlers
 {
     public class JwtHandler : AppAuthorizeHandler
     {

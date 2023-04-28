@@ -1,4 +1,4 @@
-﻿namespace EleganceAdmin.Application
+﻿namespace EleganceAdmin.Application.System.Services
 {
     public interface ISystemService
     {

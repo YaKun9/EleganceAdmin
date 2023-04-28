@@ -1,4 +1,6 @@
-﻿namespace EleganceAdmin.Application
+﻿using EleganceAdmin.Application.System.Services;
+
+namespace EleganceAdmin.Application.System
 {
     /// <summary>
     /// 系统服务接口
