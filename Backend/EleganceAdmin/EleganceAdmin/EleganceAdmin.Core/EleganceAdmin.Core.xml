@@ -45,5 +45,75 @@
             Redis缓存
             </summary>
         </member>
+        <member name="P:EleganceAdmin.Core.Entity.BaseEntity.CreatedUId">
+            <summary>
+            创建人唯一标识
+            </summary>
+        </member>
+        <member name="P:EleganceAdmin.Core.Entity.BaseEntity.CreatedUName">
+            <summary>
+            创建人名称
+            </summary>
+        </member>
+        <member name="P:EleganceAdmin.Core.Entity.BaseEntity.UpdatedUId">
+            <summary>
+            最后修改人唯一标识
+            </summary>
+        </member>
+        <member name="P:EleganceAdmin.Core.Entity.BaseEntity.UpdatedUName">
+            <summary>
+            最后修改人名称
+            </summary>
+        </member>
+        <member name="T:EleganceAdmin.Core.Entity.SysRequestLog">
+            <summary>
+            代表一条“请求记录日志”
+            </summary>
+        </member>
+        <member name="M:EleganceAdmin.Core.Extension.Extension.GetAsync``2(Microsoft.Extensions.Caching.Distributed.IDistributedCache,``0,System.Func{System.Threading.Tasks.Task{``1}},System.Nullable{System.TimeSpan})">
+            <summary>
+            获取缓存值，如果缓存不存在，则执行 factory 方法，并将 factory 方法的返回值存入缓存
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <param name="cache">IDistributedCache实例</param>
+            <param name="key">缓存key</param>
+            <param name="factory">业务方法</param>
+            <param name="expiry">过期时间(绝对时间策略)</param>
+            <returns></returns>
+        </member>
+        <member name="M:EleganceAdmin.Core.Extension.Extension.GetCompressedAsync``1(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.Func{System.Threading.Tasks.Task{``0}},System.Int32,System.Nullable{System.TimeSpan})">
+            <summary>
+            获取缓存值，如果缓存不存在，则执行 factory 方法，并将 factory 方法的返回值存入缓存
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="cache">IDistributedCache实例</param>
+            <param name="key">缓存key</param>
+            <param name="factory">业务方法</param>
+            <param name="chunkSize">分片大小</param>
+            <param name="expiry">过期时间(绝对时间策略)</param>
+            <returns></returns>
+        </member>
+        <member name="T:EleganceAdmin.Core.Extension.GZipExtensions">
+            <summary>
+            GZip压缩扩展
+            </summary>
+            <remarks>
+            编码：UTF-8
+            压缩：GZip Base64
+            </remarks>
+        </member>
+        <member name="M:EleganceAdmin.Core.Extension.GZipExtensions.Compress(System.String)">
+            <summary>GZip压缩</summary>
+        </member>
+        <member name="M:EleganceAdmin.Core.Extension.GZipExtensions.Compress(System.Byte[])">
+            <summary>GZip压缩</summary>
+        </member>
+        <member name="M:EleganceAdmin.Core.Extension.GZipExtensions.Decompress(System.String)">
+            <summary>GZip解压缩</summary>
+        </member>
+        <member name="M:EleganceAdmin.Core.Extension.GZipExtensions.Decompress(System.Byte[])">
+            <summary>GZip解压缩</summary>
+        </member>
     </members>
 </doc>
